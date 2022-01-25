@@ -3,32 +3,59 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="author" content="Kuznetsov Leonid email: orlan1211@yahoo.com">
-        <link rel="stylesheet" href="syle.css">
+        <link rel="stylesheet" href="header.css">
         <link rel="icon" href="Vector.png" />
         <title>NFTERS</title>
     </head>
     <body>
         <header>
-                <div class="logo">
-                    <p>NFTERS</p>
+            <div class="logo">
+                <h1 class="logo-name">
+                    nfters
+                </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="nav-bar" href="#" target="_blank" rel="noopener noreferrer">
+                            Marketplace
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-bar" href="#" target="_blank" rel="noopener noreferrer">
+                            Resource
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-bar" href="#" target="_blank" rel="noopener noreferrer">
+                            About
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input 
+                    class="search-input" 
+                    type="search" 
+                    name="search" 
+                    id="header-search"
+                    placeholder="Search"
+                    >
+                <img class="search-btn" src="./srhBtnt.png" alt="search">
+            </div>
+            <div class="btn-grup">
+                <div class="btn">
+                    <button class="btn-purple">
+                        Upload
+                    </button>
                 </div>
-                <div class="navBar">
-                    <ul>
-                        <li><a href="#">Marketplace</a></li>
-                        <li><a href="#">Resource</a></li>
-                        <li><a href="#">About</a></li>
-                    </ul>
+                <div class="btn">
+                    <button class="btn-white">
+                        Connect Wallet
+                    </button>
                 </div>
-                <div class="inpSearch">
-                    <input placeholder="Search" type="search" name="search" id="srh">
-                    <input type="submit" value="">
-                </div>
-                <div class="btnGroup">
-                    <button class="Upload">Upload</button>
-                    <button class="ConnectWallet">Connect Wallet</button>
-                </div> 
+            </div>
         </header>
-        
     </body>
     <script src="script.js"></script>
 </html>
