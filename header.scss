@@ -13,6 +13,56 @@ html {
     clear: both;
 }
 
+@mixin display_settings_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@mixin display_settings_2 {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin btn_purple_settings ($heig) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    height: $heig;
+    background: #3D00B7;
+    border: solid 2px #3D00B7;
+    border-radius: 60px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+@mixin btn_purple_hover {
+    background: white;
+    color: #3D00B7;
+}
+@mixin btn_white_settings ($heig) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 22px;
+    border: 2px solid #3D00B7;
+    box-sizing: border-box;
+    border-radius: 60px;
+    color: #3D00B7;
+    height: $heig;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+@mixin btn_white_hover {
+    background: #3D00B7;
+    color: white;
+}
 
 /*-------------Header----------------*/
 header{
@@ -82,64 +132,29 @@ header{
     .btn-grup {
         .btn {
             .btn-purple {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                padding: 18px 40px;
-                height: 50px;
-                background: #3D00B7;
-                border: solid 2px #3D00B7;
-                border-radius: 60px;
-                color: white;
-                cursor: pointer;
-                transition: 0.2s linear;
+                @include btn_purple_settings (50px);
             }
             .btn-purple:hover{
-                background: white;
-                color: #3D00B7;
+                @include btn_purple_hover;
             }
             .btn-white {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                padding: 18px 22px;
-                border: 2px solid #3D00B7;
-                box-sizing: border-box;
-                border-radius: 60px;
-                color: #3D00B7;
-                height: 50px;
-                background: white;
-                cursor: pointer;
-                transition: 0.2s linear;
+                @include btn_white_settings (50px);
             }
             .btn-white:hover{
-                background: #3D00B7;
-                color: white;
+                @include btn_white_hover;
             }
         }
     }
 }
 @media screen and (max-width: 1280px){
     header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        @include display_settings_1;
         .logo{
-            margin: auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            @include display_settings_2;
         }
         nav{
             margin: auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            flex-wrap: wrap;
+            @include  display_settings_1;
             ul{
                 display: flex;
                 flex-direction: row;
@@ -153,20 +168,14 @@ header{
             }
         }
         .search{
+            @include display_settings_2;
             margin: auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
             margin-bottom: 20px;
             margin-top: 20px;
         }
         .btn-grup{
             margin: auto;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
+            @include display_settings_2;
             .btn{
                 margin-right: 10px;
             }
