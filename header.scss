@@ -13,56 +13,7 @@ html {
     clear: both;
 }
 
-@mixin display_settings_1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-@mixin display_settings_2 {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-@mixin btn_purple_settings ($heig) {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 18px 40px;
-    height: $heig;
-    background: #3D00B7;
-    border: solid 2px #3D00B7;
-    border-radius: 60px;
-    color: white;
-    cursor: pointer;
-    transition: 0.2s linear;
-}
-@mixin btn_purple_hover {
-    background: white;
-    color: #3D00B7;
-}
-@mixin btn_white_settings ($heig) {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 18px 22px;
-    border: 2px solid #3D00B7;
-    box-sizing: border-box;
-    border-radius: 60px;
-    color: #3D00B7;
-    height: $heig;
-    background: white;
-    cursor: pointer;
-    transition: 0.2s linear;
-}
-@mixin btn_white_hover {
-    background: #3D00B7;
-    color: white;
-}
+@import './mixsins.scss';
 
 /*-------------Header----------------*/
 header{

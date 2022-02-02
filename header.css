@@ -13,6 +13,13 @@ html {
   clear: both;
 }
 
+@font-face {
+  font-family: Averta Demo PE Cutted Demo;
+  src: url(./FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 /*-------------Header----------------*/
 header {
   border-bottom: solid 1px grey;

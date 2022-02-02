@@ -1,0 +1,311 @@
+@font-face {
+  font-family: Averta Demo PE Cutted Demo;
+  src: url(./FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.block_1 .container {
+  position: relative;
+}
+
+.block_1 .container .card-1 {
+  width: 30rem;
+  height: auto;
+  margin: auto;
+  position: relative;
+  margin-top: 52px;
+}
+
+.block_1 .container .card-1 .card-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 612px;
+}
+
+.block_1 .container .card-1 .card-title h1 {
+  width: auto;
+  height: 96px;
+  font-family: Integral CF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block_1 .container .card-1 .card-txt {
+  padding-top: 10px;
+  padding-bottom: 31px;
+  max-width: 471px;
+}
+
+.block_1 .container .card-1 .card-txt p {
+  width: auto;
+  height: 96px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 160%;
+  color: #565656;
+}
+
+.block_1 .container .card-1 .card-btn {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.block_1 .container .card-1 .card-btn .card-btn-purple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 40px;
+  height: 65px;
+  background: #3D00B7;
+  border: solid 2px #3D00B7;
+  border-radius: 60px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  width: 220px;
+  font-family: Averta Demo PE Cutted Demo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.065em;
+}
+
+.block_1 .container .card-1 .card-btn .card-btn-purple:hover {
+  background: white;
+  color: #3D00B7;
+}
+
+.block_1 .container .card-1 .card-statistic {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.block_1 .container .card-1 .card-statistic span {
+  float: left;
+}
+
+.block_1 .container .card-1 .card-statistic .card-title {
+  width: 116px;
+  height: 48px;
+  font-family: Integral CF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding: 0px;
+  margin: 0px;
+}
+
+.block_1 .container .card-1 .card-statistic .card-txt {
+  width: 73px;
+  height: 32px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 160%;
+  color: #565656;
+  position: relative;
+  bottom: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.block_1 .container .card-2 {
+  width: 30rem;
+  height: auto;
+  margin: auto;
+  position: relative;
+  margin-top: 52px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block_1 .container .card-2 .card-content {
+  margin: auto;
+}
+
+.block_1 .container .card-2 .card-content span {
+  display: inline;
+}
+
+.block_1 .container .card-2 .card-content .card-2-img1 {
+  position: absolute;
+  left: -80px;
+  top: 200px;
+}
+
+.block_1 .container .card-2 .card-content .card-2-img3 {
+  position: absolute;
+  left: 80px;
+  bottom: 25px;
+  z-index: -1;
+}
+
+.block_1 .container .card-2 .card-content .card-2-img4 {
+  position: absolute;
+  left: 160px;
+  bottom: 50px;
+  z-index: -2;
+}
+
+.block_1 .container .card-2 .card-content .card-2-topBlock {
+  position: absolute;
+  left: 25px;
+  top: 20px;
+}
+
+.block_1 .container .card-2 .card-content .card-2-topBlock .title-topBlock {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  width: 237px;
+  height: 36.92px;
+}
+
+.block_1 .container .card-2 .card-content .card-2-topBlock .sub-topBlock {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block_1 .container .card-2 .card-content .card-2-topBlock .sub-topBlock img {
+  margin-right: 10px;
+}
+
+.block_1 .container .card-2 .card-content .card-2-bottomblock {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  border-radius: 12px;
+  width: 348px;
+  height: 73.85px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block_1 .container .card-2 .card-content .card-2-bottomblock .card-2-bottomblock-left {
+  margin: auto;
+}
+
+.block_1 .container .card-2 .card-content .card-2-bottomblock .card-2-bottomblock-right {
+  margin: auto;
+}
+
+.block_1 .container .card-2 .card-content .card-2-bottomblock .title-bottomblock {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  width: 65px;
+  height: 16.41px;
+}
+
+.block_1 .container .card-2 .card-content .card-2-bottomblock .sub-txt {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block_1 .container .card-2 .card-content .card-2-bottomblock .sub-txt img {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1280px) {
+  .block_1 .container .block_1 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .block_1 .container .block_1 .container .card {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .block_1 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .block_1 .container .card {
+    width: auto;
+  }
+}
+/*# sourceMappingURL=block_1.css.map */

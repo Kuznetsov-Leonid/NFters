@@ -1,0 +1,193 @@
+@import './mixsins.scss';
+
+.block_1 {
+    .container {
+        position: relative;
+        .card-1 {
+            width: 30rem;
+            height: auto;
+            margin: auto;
+            position: relative;
+            margin-top: 52px;
+            .card-title {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                max-width: 612px;
+                h1{
+                    @include title (auto, 96px, 40px, 48px);
+                }
+            }
+            .card-txt {
+                padding-top: 10px;
+                padding-bottom: 31px;
+                max-width: 471px;
+                p{
+                    @include gray_txt(auto, 96px, 20px, 160%);
+                }
+            }
+            .card-btn {
+                padding-top: 10px;
+                padding-bottom: 15px;
+                .card-btn-purple{
+                    @include btn_purple_settings (65px);
+                    width: 220px;
+                    font-family: Averta Demo PE Cutted Demo;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 25px;
+                    letter-spacing: 0.065em;
+                }
+                .card-btn-purple:hover{
+                    @include btn_purple_hover;
+                }
+            }
+            .card-statistic {
+                padding-top: 15px;
+                padding-bottom: 10px;
+                span{
+                    float: left;
+                }
+                .card-title{
+                    @include title (116px, 48px, 40px, 48px);
+                    padding: 0px;
+                    margin: 0px;
+                }
+                .card-txt{
+                    @include gray_txt(73px, 32px, 20px, 160%);
+                    position: relative;
+                    bottom: 12px;
+                    padding: 0px;
+                    margin: 0px;
+                }
+            }
+        }
+        .card-2 {
+            width: 30rem;
+            height: auto;
+            margin: auto;
+            position: relative;
+            margin-top: 52px;
+            justify-content: center;
+            align-items: center;
+            .card-content{
+                margin: auto;
+                span{
+                    display: inline;
+                }
+                .card-2-img1{
+                    position: absolute;
+                    left: -80px ;
+                    top: 200px;
+                }
+                .card-2-img3{
+                    position: absolute;
+                    left: 80px;
+                    bottom: 25px;
+                    z-index: -1;
+                }
+                .card-2-img4{
+                    position: absolute;
+                    left: 160px;
+                    bottom: 50px;
+                    z-index: -2;
+                }
+                .card-2-topBlock{
+                    position: absolute;
+                    left: 25px;
+                    top: 20px;
+                    .title-topBlock{
+                        font-family: DM Sans;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 28px;
+                        line-height: 36px;
+                        letter-spacing: -0.05em;
+                        color: #FFFFFF;
+                        width: 237px;
+                        height: 36.92px;
+                    }
+                    .sub-topBlock{
+                        font-family: DM Sans;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 20px;
+                        line-height: 26px;
+                        color: #FFFFFF;
+                        display: flex;
+                        img{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                .card-2-bottomblock{
+                    position: absolute;
+                    left: 25px;
+                    bottom: 25px;
+                    background: rgba(255, 255, 255, 0.2);
+                    backdrop-filter: blur(30px);
+                    border-radius: 12px;
+                    width: 348px;
+                    height: 73.85px;
+                    @include display_settings_2;
+                    .card-2-bottomblock-left{
+                        margin: auto;
+                    }
+                    .card-2-bottomblock-right{
+                        margin: auto;
+                    }
+                    .title-bottomblock{
+                        font-family: DM Sans;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 16px;
+                        color: #FFFFFF;
+                        width: 65px;
+                        height: 16.41px;
+                    }
+                    .sub-txt{
+                        font-family: DM Sans;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 21px;
+                        color: #FFFFFF;
+                        display: flex;
+                        img{
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1280px){
+    .block_1{
+        .container{
+            .block_1{
+                .container{
+                    @include display_settings_1;    
+                    .card{
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .block_1{
+        .container{
+            @include display_settings_1;
+            .card{
+                width: auto;
+            }
+        }
+    }
+}
